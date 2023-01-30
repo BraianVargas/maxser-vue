@@ -8,8 +8,8 @@
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="d-flex justify-content-end scollapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
+            <div class="d-flex justify-content-end scollapse navbar-collapse" >
+                <div class="navbar-nav navbar-sm-collapse  " id="navbarNavAltMarkup">
                     <RouterLink class="nav-link p-2 text-white" to="/">
                         <i class="bi bi-house"></i> Inicio
                     </RouterLink>
@@ -23,13 +23,13 @@
                             <i class="bi bi-whatsapp"></i> Whatsapp
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Ventas Online</a></li>
-                            <li><a class="dropdown-item" href="#">Servicio Técnico</a></li>
-                            <li><a class="dropdown-item" href="#">Empresas</a></li>
+                            <li><a class="dropdown-item" target="_blank" href="https://api.whatsapp.com/send?phone=542644682062">Ventas Online</a></li>
+                            <li><a class="dropdown-item" target="_blank" href="https://api.whatsapp.com/send?phone=542645320318">Servicio Técnico</a></li>
+                            <li><a class="dropdown-item" target="_blank" href="https://wa.me/message/SXEDLC4LIH26I1">Empresas</a></li>
                         </ul>
                     </div>
                     
-                    <RouterLink class="nav-link p-2 text-white" to="/about">
+                    <RouterLink class="nav-link p-2 text-white" to="/events">
                         <i class="bi bi-calendar-event"></i> Eventos
                     </RouterLink>
 

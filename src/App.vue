@@ -3,9 +3,9 @@ import "../node_modules/bootstrap/js/index.esm.js"
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import "../node_modules/bootstrap-icons/font/bootstrap-icons.css"
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
 import HeaderComponent from './components/HeaderComponent.vue'
 import FooterComponent from './components/FooterComponent.vue'
+import HorarioComponent from "./components/HorarioComponent.vue"
 </script>
 
 <template>
@@ -17,6 +17,7 @@ import FooterComponent from './components/FooterComponent.vue'
   </header>
 
   <HeaderComponent />
+  <HorarioComponent class="mb-3"/>
   <RouterView />
   <!-- <FooterComponent/> -->
 </template>
