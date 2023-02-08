@@ -22,7 +22,7 @@
                 open = true
             }
         }else{
-            if((hours >= 9) || (hours < 21)){
+            if((hours > 9) || (hours < 21)){
                 open = true
             }else{
                 open = false

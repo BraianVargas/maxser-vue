@@ -16,4 +16,8 @@ const router = createRouter({
   ]
 })
 
+function getScreenRes(){
+  return screen.width>700?true:false
+}
+
 export default router

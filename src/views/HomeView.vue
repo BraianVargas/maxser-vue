@@ -41,7 +41,7 @@
     },
     methods: {
       getScreenRes(){
-        return screen.width>=800?true:false
+        return screen.width>=700?true:false
       }
     }
   }
