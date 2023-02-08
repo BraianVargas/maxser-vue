@@ -5,9 +5,7 @@ import "../node_modules/bootstrap-icons/font/bootstrap-icons.css"
 import { RouterLink, RouterView } from 'vue-router'
 import HeaderComponent from './components/HeaderComponent.vue'
 import CarrouselComponent from './components/CarrouselComponent.vue'
-import SectionsComponent from "./components/SectionsComponent.vue"
 import FooterComponent from './components/FooterComponent.vue'
-import HorarioComponent from "./components/HorarioComponent.vue"
 </script>
 
 <template>
@@ -18,10 +16,9 @@ import HorarioComponent from "./components/HorarioComponent.vue"
   </header>
 
   <HeaderComponent />
-  <HorarioComponent class="mb-3"/>
   <RouterView />
-  <SectionsComponent class="mb-3"/>
-  <!-- <FooterComponent/> -->
+  <!-- <carrouselComponent class="mb-3"/> -->
+  
 </template>
 
 <style scoped>
