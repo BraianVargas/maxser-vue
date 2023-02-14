@@ -238,28 +238,39 @@
   </div>
 </div>
 
-<div class="banner-grid mt-5 pt-5 mb-5 pb-5" style="max-width:800px; margin:auto;">
-  <div class="banner-item small">
-    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
-      <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+
+
+
+
+
+
+
+
+<div class="banner-grid mt-5 pt-5 mb-5 pb-5" style="max-width:1000px; margin:auto;">
+  <div class="banner-item banner-item-contact">
+    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-shop" viewBox="0 0 16 16">
+      <path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h1v-5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v5h6V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zM4 15h3v-5H4v5zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3zm3 0h-2v3h2v-3z"/>
     </svg>
     <br>
-    <a href="" class="btn btn-whatsapp">Contactar</a>
+    <p class="d-flex justify-content-center p-2 m-2 fw-bolder" style="min-height:60px; heigth:700px; max-heigth:90px;">Ventas Online</p>
+    <a href="" class="btn btn-whatsapp"><i class="bi bi-whatsapp"></i>&nbsp; WhatsApp</a>
   </div>
-  <div class="banner-item small">
+  <div class="banner-item banner-item-contact">
     <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-building" viewBox="0 0 16 16">
       <path d="M4 2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1ZM4 5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1ZM7.5 5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1ZM4.5 8a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Z"/>
       <path d="M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V1Zm11 0H3v14h3v-2.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5V15h3V1Z"/>
     </svg>
     <br>
-    <a href="" class="btn btn-whatsapp">Contactar</a>
+    <p class="d-flex justify-content-center p-2 m-2 fw-bolder" style="min-height:60px; heigth:700px; max-heigth:90px;">Atención a empresas</p>
+    <a href="" class="btn btn-whatsapp"><i class="bi bi-whatsapp"></i>&nbsp; WhatsApp</a>
   </div>
-  <div class="banner-item small">
+  <div class="banner-item banner-item-contact">
     <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-tools" viewBox="0 0 16 16">
       <path d="M1 0 0 1l2.2 3.081a1 1 0 0 0 .815.419h.07a1 1 0 0 1 .708.293l2.675 2.675-2.617 2.654A3.003 3.003 0 0 0 0 13a3 3 0 1 0 5.878-.851l2.654-2.617.968.968-.305.914a1 1 0 0 0 .242 1.023l3.27 3.27a.997.997 0 0 0 1.414 0l1.586-1.586a.997.997 0 0 0 0-1.414l-3.27-3.27a1 1 0 0 0-1.023-.242L10.5 9.5l-.96-.96 2.68-2.643A3.005 3.005 0 0 0 16 3c0-.269-.035-.53-.102-.777l-2.14 2.141L12 4l-.364-1.757L13.777.102a3 3 0 0 0-3.675 3.68L7.462 6.46 4.793 3.793a1 1 0 0 1-.293-.707v-.071a1 1 0 0 0-.419-.814L1 0Zm9.646 10.646a.5.5 0 0 1 .708 0l2.914 2.915a.5.5 0 0 1-.707.707l-2.915-2.914a.5.5 0 0 1 0-.708ZM3 11l.471.242.529.026.287.445.445.287.026.529L5 13l-.242.471-.026.529-.445.287-.287.445-.529.026L3 15l-.471-.242L2 14.732l-.287-.445L1.268 14l-.026-.529L1 13l.242-.471.026-.529.445-.287.287-.445.529-.026L3 11Z"/>
     </svg>
     <br>
-    <a href="" class="btn btn-whatsapp">Contactar</a>
+    <p class="d-flex justify-content-center p-2 m-2 fw-bolder" style="min-height:60px; heigth:700px; max-heigth:90px;">Servicio técnico</p>
+    <a href="" class="btn btn-whatsapp"><i class="bi bi-whatsapp"></i>&nbsp; WhatsApp</a>
   </div>
 </div>
 
@@ -403,23 +414,42 @@
 
 .btn-whatsapp{
   background-color: #07ce50;
-  scrollbar-shadow-color: #075e54;
-  border-radius: 15px;
-  margin-top: 2em;
-  color: white;
+  border-radius: 20px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  filter: drop-shadow(0 2px 5px  rgba(0, 0, 0, 0.815));
   box-shadow: inset 0 0 7px 2px #075e54;
   border: 5px white solid;
-  outline: 1px black solid;
 }
 .btn-whatsapp:hover{
-  background-color: white;
+  transition: ease-in-out .2s;
+  transform: scale(1.2,1.2);
+  background-color: #07ce50;
+  box-shadow: inset 0 0 7px 2px #075e54;
   border-radius: 15px;
-  margin-top: 2em;
-  color: black;
-  box-shadow: 0 0 0 0;
-  border: 5px #07ce50 solid;
-  outline: 1px 075e54 solid;
+  position: relative;
+  border: 5px white solid;
+  z-index: 10000;
+  filter: drop-shadow(0 8px 5px  rgba(0, 0, 0, 0.815));
 }
 
+.banner-item-contact{
+  flex: 1 0 calc(33% - 60px);
+  margin-left: 2em;
+  background-color: #ffffffd5;
+}
+@media (max-width: 768px) {
+  .banner-item-contact{
+    flex: 1 0 calc(50% - 20px);
+    left: -10px;
+  }
+}
+.banner-item-contact svg{
+  color: #000000;
+}
+.banner-item-contact p{
+  font: 5em;
+  color: rgb(0, 0, 0);
 
+}
 </style>

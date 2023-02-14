@@ -17,7 +17,7 @@ import FooterComponent from './components/FooterComponent.vue'
 
   <HeaderComponent />
   <RouterView />
-  <!-- <carrouselComponent class="mb-3"/> -->
+  <FooterComponent/>
   
 </template>
 
