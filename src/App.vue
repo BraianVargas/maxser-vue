@@ -13,6 +13,7 @@ import FooterComponent from './components/FooterComponent.vue'
   <header>
     <link rel="stylesheet" href="src/assets/bootstrap.min.css">
     <link rel="stylesheet" href="src/assets/bootstrap.css">
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
   </header>
 
   <HeaderComponent />

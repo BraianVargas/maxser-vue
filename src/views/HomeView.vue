@@ -16,13 +16,13 @@
 
     if (day != 0){
         if(day == 6){
-            if ((hour < 10) || (hour > 14)){
+            if ((hour < 10) && (hour > 14)){
                 open = false
             }else{
                 open = true
             }
         }else{
-            if((hours > 9) || (hours < 21)){
+            if((hours > 9) && (hours < 21)){
                 open = true
             }else{
                 open = false
@@ -44,7 +44,7 @@
           img_src:"src/assets/images/productos/celulares.png",
           title:"Smartphones",
           slogan:"No dejes de estar conectado",
-          content:"Encontrá el Smartphone que necesitas para tu dia a dia y elegi el que se adapte mejor a vos para estar más conectado que nunca!",
+          content:"Encontrá el Smartphone que necesitas para tu dia a dia y elegi el que se adapte mejor a vos para estar siempre preparado, por si el destino te llama! 🤭",
           link:"https://maxserstore.com.ar/conectividad/smartphone1/"
           
         },
@@ -53,23 +53,23 @@
           img_src:"src/assets/images/productos/notebooks.png",
           title:"Notebooks",
           slogan:"Llevá tu mundo con vos",
-          content:"Descubrí en MAXSER la notebook ideal para tus exigencias. Para juegos, trabajo o estudio, la notebook que necesitas está aqui.",
+          content:"Descubrí en MAXSER la notebook ideal para tus exigencias. Sea juegos, trabajo o estudio, llevate siempre el rendimiento que necesitas.",
           link:"https://maxserstore.com.ar/notebook/"
         },
         {
           id:3,
           img_src:"src/assets/images/productos/accesorios.png",
           title:"Accesorios Gamer",
-          slogan:"",
-          content:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint ab vel, voluptatum ullam, consequatur rem beatae delectus nam officia harum repellendus. At harum fugiat qui eaque dolorum illo totam corrupti.",
+          slogan:"Vamos por más kills 😎",
+          content:"¿Queres ser el mejor? Entonces necesitas lo mejor. Los mejores componentes y accesorios para derrotar a todos tus oponenetes los encontrás aquí.",
           link:""
         },
         {
           id:4,
           img_src:"src/assets/images/productos/seguridad.png",
           title:"Seguridad",
-          slogan:"",
-          content:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint ab vel, voluptatum ullam, consequatur rem beatae delectus nam officia harum repellendus. At harum fugiat qui eaque dolorum illo totam corrupti.",
+          slogan:"¿Cerraste la puerta?",
+          content:"Olvidate de la duda de saber si todo está en orden, salí tranquilo y monitorea todo desde la comodidad de tu celular o computadora. Estes donde estes, tu hogar con vos.",
           link:""
         }
       ]
@@ -94,6 +94,7 @@
 </script>
 
 <template>
+  
   <div class="container-fluid bg-black p-5">
       <div class="container pt-4 pb-4">
           <div class="row">
@@ -132,7 +133,7 @@
 
     <div v-if="getScreenRes()"> <!-- Si es formato pc carga esta sección-->
       <ul v-for="producto in productsArray" :key="producto.id">
-        <li id="product_item" v-if="(producto.id % 2) ==0">
+        <li id="product_item" v-if="(producto.id % 2) == 0">
           <div class="container" style="max-width:900px;">
             <div class="row">
               <div class="col-12 col-md-7">
