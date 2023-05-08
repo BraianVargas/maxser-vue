@@ -68,7 +68,7 @@
           id:4,
           img_src:"src/assets/images/productos/seguridad.png",
           title:"Seguridad",
-          slogan:"¿Cerraste la puerta?",
+          slogan:"¿Cerraste la puerta? 🚪😨",
           content:"Olvidate de la duda de saber si todo está en orden, salí tranquilo y monitorea todo desde la comodidad de tu celular o computadora. Estes donde estes, tu hogar con vos.",
           link:""
         }
