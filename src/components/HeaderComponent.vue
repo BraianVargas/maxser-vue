@@ -29,10 +29,6 @@
                         </ul>
                     </div>
                     
-                    <RouterLink class="nav-link p-2 text-white" to="/events">
-                        <i class="bi bi-calendar-event"></i> Eventos
-                    </RouterLink>
-
                     <a href="http://www.maxserstore.com.ar" class="nav-link btn-tienda p-2 text-white" target="_blank"> <i class="bi bi-shop-window"></i> Maxser Store </a>
                     
                 </div>
@@ -42,9 +38,8 @@
 </template>
 
 <script>
-    export default {
+    export default{}
 
-    }
 </script>
 
 <style lang="css">

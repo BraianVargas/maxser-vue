@@ -37,13 +37,13 @@
           picture1:"src/assets/images/eventos/mercurio_1.png",
           picture2:"src/assets/images/eventos/mercurio_2.png"
         },
-        {
-          title:"Premio Mercurio de Oro 2020-2023",
-          slogan:"Hace 50 años atrás se creó este prestigioso premio, que año a año distingue a las mejores y más prestigiosas empresas y comercios de San Juan.",
-          subtitle:"Reconocimiento a la mejor asesoría y comercialización de equipos tecnológicos.",
-          picture1:"src/assets/images/eventos/mercurio_1.png",
-          picture2:"src/assets/images/eventos/mercurio_2.png"
-        },
+        // {
+        //   title:"Premio Mercurio de Oro 2020-2023",
+        //   slogan:"Hace 50 años atrás se creó este prestigioso premio, que año a año distingue a las mejores y más prestigiosas empresas y comercios de San Juan.",
+        //   subtitle:"Reconocimiento a la mejor asesoría y comercialización de equipos tecnológicos.",
+        //   picture1:"src/assets/images/eventos/mercurio_1.png",
+        //   picture2:"src/assets/images/eventos/mercurio_2.png"
+        // },
         {
           title:"Premio Mercedario",
           slogan:"El premio de mayor trayectoria a nivel nacional, entregado en forma ininterrumpida desde 1968 a las empresas más populares para los sanjuaninos.",
@@ -61,7 +61,6 @@
       }
       return {
         teamArray,
-        groupsOfThree,
         imageNames,
         premiosArray
       }
@@ -90,7 +89,7 @@
 <template>
   <section id="about_us">
     <h2 class="m-auto text-center p-3 bolder fs-1">Sobre Nosotros</h2>
-    <div class="container m-auto p-3">
+    <div class="container m-auto p-5">
       <div class="row">
         <div class="col-12 col-md-6 p-2 m-auto text-left">
           <p class="w-80">
@@ -112,36 +111,30 @@
       </div>
     </div>
     <!-- carrousel of Team -->
-    <section id="carrousel_people" class="p-4">
-      <div id="carousel-team" class="carousel slide" data-bs-ride="carousel">
+
+
+
+    
+
+    <!-- <section>
+      <div id="team-carousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
-          <div class="carousel-item active" v-for="person in teamArray">
-            <img class="card-img-top d-flex m-auto" v-bind:src="person.img_src" alt="card image cap" style="width: 200px; height: 200px;">
-            <div class="card">
-              <div class="card-body">
-                <p class="card-title text-black">
-                  {{person.name}}
-                </p>
-                <p class="card-text">
-                  {{person.rol}}
-                </p>
-              </div>
+          <div class="carousel-item" v-for="i in 10" :class="{active:i=1}">
+            <div class="col-md-4 d-inline-block" v-for="(person,index) in teamArray" >
+              <p class="">{{person.name}}</p>
             </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-team"
-          data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#team-carousel" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carousel-team"
-          data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#team-carousel" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-    </section>
-
+    </section> -->
 
 
 
@@ -149,8 +142,7 @@
 <!-- ------------------------------------------------------------------------------------------------------ -->
 
 
-
-    <section id="carrousel_people" class="p-4">
+    <!-- <section id="carrousel_people" class="p-4">
       <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner" v-if="getScreenRes() == true">
           <div class="carousel-item" v-for="(group, index) in groupsOfThree" :key="index" v-bind:class="{active:index=1}">
@@ -191,7 +183,7 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-    </section>
+    </section> -->
     <!-- End carousel of Team -->
   </section>
   
