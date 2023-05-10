@@ -10,9 +10,9 @@
             </button>
             <div class="d-flex justify-content-end scollapse navbar-collapse" >
                 <div class="navbar-nav navbar-sm-collapse  " id="navbarNavAltMarkup">
-                    <RouterLink class="nav-link p-2 text-white" to="/">
+                    <a class="nav-link p-2 text-white" href="/">
                         <i class="bi bi-house"></i> Inicio
-                    </RouterLink>
+                    </a>
                     
                     <RouterLink class="nav-link p-2 text-white" to="/about">
                         <i class="bi bi-info-circle"></i> ¿Quienes Somos?
